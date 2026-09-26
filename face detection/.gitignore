@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+.DS_Store
+
+# The DNN model files are ~10MB combined - don't commit large binaries
+# to git. download_model.py fetches them automatically.
+models/*.caffemodel
+models/*.prototxt
